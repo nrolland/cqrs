@@ -1,0 +1,15 @@
+flags: {}
+extra-package-dbs: []
+packages:
+- cqrs-core/
+- cqrs-example/
+- cqrs-memory/
+- cqrs-postgresql/
+- cqrs-testkit/
+extra-deps:
+- HUnit-1.3.0.0
+- bytestring-lexing-0.4.3.3
+- pg-harness-client-0.4.0
+- aeson-0.8.1.1
+
+resolver: nightly-2015-12-13
